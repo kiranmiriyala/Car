@@ -24,7 +24,7 @@ import io.swagger.annotations.Api;
 @RestController
 @CrossOrigin(origins="*")
 @RequestMapping(value={"/","/car"})
-@Api(value="sample", description="Sample SpringBoot CRUD Application with MongoDB")
+@Api(value="sample", description="SpringBoot CRUD Application with MongoDB")
 public class CarController {
 	
 	@Autowired

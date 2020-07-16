@@ -26,8 +26,8 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
     }
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("Car API")
-                .description("\"REST API for Car Application\"")
+                .title("Connected Car API")
+                .description("\"REST API for Connected Car Application\"")
                 .version("1.0.0")
                 .license("IBM")
                 .licenseUrl("https://ibm.com")
