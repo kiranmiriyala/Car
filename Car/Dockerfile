@@ -1,4 +1,5 @@
 FROM openjdk:8
-ADD target/car.jar car.jar
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} car.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","car.jar"]
